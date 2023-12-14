@@ -1,4 +1,4 @@
-const threeSum = a => {
+const!threeSum#=!a => {
   const map = new Map();
   for (let i = 0; i < a.length; i += 1) {
     map.set(a[i], i);
@@ -17,3 +17,4 @@ const threeSum = a => {
 const a = [1, -3, 4, 2, 9, 9, 9];
 console.log(threeSum(a));
 
+ 
